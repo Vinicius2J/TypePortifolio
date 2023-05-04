@@ -1,0 +1,440 @@
+@charset "UTF-8";
+
+/*----------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family= família = Sigmar & display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family= Foldit :wght@300 & display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family= Kanit :wght@500 & display=swap');
+
+/*----------------------------------------------------*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: auto;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    padding: 5px;
+
+    font-family: 'Sigmar', cursive;
+    background-color: cadetblue;
+
+    border-radius: 25px;
+    max-width: 500px;
+}
+
+h2 {
+    text-align: center;
+    margin: 25px;
+    padding: 5px;
+
+    font-family: 'Kanit', sans-serif;
+    background-color: cadetblue;
+
+    border-radius: 25px;
+
+    font-size: 1em;
+}
+
+/*--------------------------------------------------------------*/
+
+header{
+    font-family: monospace;
+    font-size: 2em;
+}
+
+header > span > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    background: none;
+}
+
+nav {
+    background-color: rgb(0, 0, 0);
+
+    padding: 15px;
+    text-align: center;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+}
+
+nav a:first-child {
+    color: rgb(13, 216, 206);
+}
+  
+
+/*---------------------------------------------------------------------------*/
+
+main#corpo {
+    max-width: 800px;
+
+    margin: auto;
+}
+
+main#corpo > section#comoFunciona {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+main#corpo > section#comoFunciona > section#escrita > p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    font-size: 16pt;
+    font-family: 'Foldit', cursive;
+}
+
+main#corpo > section#exemploAlgoritmo > ol > li {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+
+    font-size: 16pt;
+    font-family: 'Foldit', cursive;
+}
+
+main#corpo > section#exemploAlgoritmo > pre > ol > li {
+    margin-bottom: 15px;
+    margin-left: 25px;
+
+    font-size: 16pt;
+    
+
+    margin-top: -30px;
+}
+
+/*----------------------------------------------------------------*/
+
+main#corpo > section#criandoAlgoritmos {
+    margin-bottom: 15px;
+    margin-left: 25px;
+
+    font-size: 16pt;
+}
+
+/*------------------------------------------------------------------*/
+
+button {
+
+    outline: none;
+    border: none;
+
+    padding: 15px;
+
+    font-family: monospace, Arial, Helvetica, sans-serif;
+    background-color: cadetblue;
+
+    font-size: 20pt;
+}
+
+/*-----------------------------------------------------------------*/
+
+h2#obs {
+    background: none;
+    font-size: 16pt;
+}
+
+/*-----------------------------------------------------------------*/
+footer {
+    background-color: rgb(0, 34, 34);
+    color: white;
+    height: 350px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-content: center;
+    justify-content: center;
+}
+
+footer > h1#tituloFotter {
+    background: none;
+}
+
+footer > section#redes {
+    width: 98.7vw;
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+footer > section#redes > section {
+    margin-top: 15px;
+}
+
+/*--------------------------------------------------------------------*/
+
+footer > section#redes > section#ista {
+    display: flex;
+    flex-direction: row;
+
+    height: 40px;
+    width: 150px;
+
+    align-items: center;
+    justify-content: center;
+
+    border: 5px solid rgb(255, 0, 212);
+    border-radius: 25px;
+
+    padding: 5px;
+
+}
+
+footer > section#redes > section#ista > p {
+    font-family: 'Foldit', cursive;
+
+    margin-left: 15px;
+}
+
+/*--------------------------------------------------------------------*/
+ 
+
+footer > section#redes > section#gitHub {
+    display: flex;
+    flex-direction: row;
+
+    height: 40px;
+    width: 150px;
+
+    align-items: center;
+    justify-content: center;
+
+    border: 5px solid rgb(0, 4, 26);
+    border-radius: 25px;
+
+    padding: 5px;
+}
+
+footer > section#redes > section#gitHub > p {
+    font-family: 'Foldit', cursive;
+
+    margin-left: 15px;
+}
+
+/*------------------------------------------------------------------------*/
+
+footer > section#redes > section#likedin {
+    display: flex;
+    flex-direction: row;
+
+    height: 40px;
+    width: 150px;
+
+    align-items: center;
+    justify-content: center;
+
+    border: 5px solid rgb(0, 245, 245);
+    border-radius: 25px;
+
+    padding: 5px;
+}
+
+footer > section#redes > section#likedin > p {
+    font-family: 'Foldit', cursive;
+
+    margin-left: 15px;
+}
+
+/*-----------------------------------------------------------------*/
+
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    /*---------------------------*/
+
+    main#corpo {
+        max-width: 600px;
+    
+        margin: auto;
+    }
+
+    main#corpo > section#comoFunciona > section#escrita > p {
+        font-size: 13pt;
+    }
+
+    main#corpo > section#exemploAlgoritmo > ol > li {
+        font-size: 13pt;
+    }
+
+    main#corpo > section#exemploAlgoritmo > pre > ol > li {   
+        font-size: 13pt;
+    }
+
+    /*--------------------------------------*/
+
+    
+    main#corpo > section#criandoAlgoritmos {
+        font-size: 10pt;
+    }
+
+    /*------------------iframe------------------------*/
+
+    #video {
+        width: 600px;
+    }
+
+    /*--------------------------------------------------------*/
+
+    h2#obs {
+        font-size: 14pt;
+    }
+
+    /*----------------------------------------------------------------*/
+
+    /*-----------Insta------------------------------------------------------*/
+
+    footer > section#redes > section#ista {
+        height: 40px;
+        width: 120px;
+    }
+
+    footer > section#redes > section#ista > img {
+        width: 30px;
+    }
+
+    /*-----------Git--------------------------------------------------------*/
+
+    footer > section#redes > section#gitHub {
+        height: 40px;
+        width: 120px;
+    }
+    
+    footer > section#redes > section#gitHub > img {
+        width: 30px;
+    }
+
+    /*-----------Git----------------------------------------------------------*/
+
+    footer > section#redes > section#likedin {
+        height: 40px;
+        width: 120px;
+    }
+    
+    footer > section#redes > section#likedin > img {
+        width: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 1.0em;
+    }
+    
+    nav > a {
+        color: white;
+        text-decoration: none;
+    
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10pt;
+        margin: 15px;
+    }
+
+    /*---------------------------*/
+
+    main#corpo {
+        max-width: 400px;
+    
+        margin: auto;
+    }
+
+    main#corpo > section#comoFunciona > section#escrita > p {
+        font-size: 7pt;
+    }
+
+    main#corpo > section#exemploAlgoritmo > ol > li {
+        font-size: 7pt;
+    }
+
+    main#corpo > section#exemploAlgoritmo > pre > ol > li {   
+        font-size: 7pt;
+    }
+
+    /*--------------------------------------*/
+
+    
+    main#corpo > section#criandoAlgoritmos {
+        font-size: 7pt;
+    }
+
+    /*------------------iframe------------------------*/
+
+    #video {
+        width: 400px;
+    }
+
+    /*--------------------------------------------------------*/
+
+    h2#obs {
+        font-size: 9pt;
+    }
+
+    /*----------------------------------------------------------------*/
+
+    /*-----------Insta------------------------------------------------------*/
+
+    footer > section#redes > section#ista {
+        height: 30px;
+        width: 100px;
+    }
+
+    footer > section#redes > section#ista > img {
+        width: 20px;
+    }
+
+    footer > section#redes > section#ista > p {
+        font-size: 10pt;
+    }
+
+    /*-----------Git--------------------------------------------------------*/
+
+    footer > section#redes > section#gitHub {
+        height: 30px;
+        width: 100px;
+    }
+    
+    footer > section#redes > section#gitHub > img {
+        width: 20px;
+    }
+
+    footer > section#redes > section#gitHub > p {
+        font-size: 10pt;
+    }
+
+    /*-----------Git----------------------------------------------------------*/
+
+    footer > section#redes > section#likedin {
+        height: 30px;
+        width: 100px;
+    }
+    
+    footer > section#redes > section#likedin > img {
+        width: 20px;
+    }
+
+    footer > section#redes > section#likedin > p {
+        font-size: 10pt;
+    }
+}
