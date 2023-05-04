@@ -16,6 +16,10 @@
     padding: 0;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 h1 {
     text-align: center;
     margin: auto;
@@ -436,5 +440,67 @@ footer > section#redes > section#likedin > p {
 
     footer > section#redes > section#likedin > p {
         font-size: 10pt;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 1em;
+        width: 300px;
+    }
+
+    h2 {
+        font-size: 0.7em;
+    }
+
+    h2.tituloCria {
+        font-size: 1em;
+    }
+    
+    nav > a {
+        color: white;
+        text-decoration: none;
+    
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 8pt;
+        margin: 20px;
+    }
+
+    /*---------------------------*/
+
+    main#corpo {
+        max-width: 300px;
+    
+        margin: auto;
+    }
+
+    main#corpo > section#comoFunciona > section#escrita > p {
+        font-size: 6pt;
+    }
+
+    main#corpo > section#exemploAlgoritmo > ol > li {
+        font-size: 6pt;
+    }
+
+    main#corpo > section#exemploAlgoritmo > pre > ol > li {   
+        font-size: 6pt;
+    }
+
+    /*--------------------------------------*/
+    
+    main#corpo > section#criandoAlgoritmos {
+        font-size: 6pt;
+    }
+
+    /*------------------iframe------------------------*/
+
+    #video {
+        width: 300px;
+    }
+
+    /*-------------------------------------------------------------*/
+    
+    h2#obs {
+        font-size: 6pt;
     }
 }
