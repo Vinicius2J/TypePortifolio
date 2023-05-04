@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-br"">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritmos em C</title>
+    <link rel="stylesheet" href="../style/algoritmoC.css">
+</head>
+<body>
+    <header>
+
+        <span>
+            <h1 id="titulo"> &lt;/Vini&gt; </h1>
+        </span>
+        
+    </header>
+
+    <nav>
+        
+        <a href="../index.html" rel="prev">Algoritmo</a>
+        <a href="algoritmoC.html">Algoritmos em C</a>
+
+    </nav>
+
+    <main id="corpo">
+        <h1>Primeiro oque é <br> C,JavaScipt,PHP,Java etc... ?</h1>
+
+        <iframe width="800" height="315" src="https://www.youtube.com/embed/pYux8zKyVX4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <p id="obsSuperior">C, JavaScript, PHP e Java são todas linguagens de programação populares e amplamente usadas para desenvolver aplicativos e sistemas de software. <br> <span style="color: red;">Também não iremos muito a fundo na linguagem C, apenas para praticar a lógica de programação.</span></p>
+
+        <h2>Linguagem C</h2>
+        <p>C: é uma linguagem de programação de propósito geral e de baixo nível, que é usada para desenvolver sistemas operacionais, drivers de dispositivos, jogos, entre outros. C é uma linguagem de programação compilada e é conhecida por sua eficiência e desempenho.</p>
+
+        <h2>Linguagem JavaScipt</h2>
+        <p>JavaScript: é uma linguagem de programação de alto nível e interpretada, que é usada principalmente para desenvolver aplicativos da web interativos. Ele é executado no lado do cliente do navegador da web e é capaz de criar recursos avançados, como animações, efeitos visuais e interações de usuário.</p>
+
+        <h2>Linguagem PHP</h2>
+        <p>PHP: é uma linguagem de programação de script do lado do servidor, usada principalmente para criar aplicativos da web dinâmicos e interativos. O PHP é frequentemente usado em combinação com bancos de dados, como MySQL, para criar aplicativos da web robustos e escaláveis.</p>
+
+        <h2>Linguagem Java</h2>
+        <p>Java: é uma linguagem de programação de propósito geral, que é usada para desenvolver aplicativos empresariais, sistemas distribuídos, aplicativos móveis, jogos e muito mais. Java é uma linguagem orientada a objetos e é executada em uma máquina virtual Java, o que permite que o código seja executado em várias plataformas.</p>
+
+        <h1>Algoritmos em C</h1>
+
+        <h2>Olá Mundo</h2>
+
+        <img src="../img/exemplos exercicios C/HelloWord.png">
+        <section id="algoritmoC">            
+
+            <p>
+                #include <stdio.h>
+                <br>
+                #include <stdlib.h>
+                <br>
+                <br>
+                Explicação: Essas linhas incluem as bibliotecas padrão de entrada e saída em C. Isso permite que o programa use funções como printf() e scanf() para imprimir na tela e receber entrada do usuário.
+            </p>
+
+            <span></span>
+
+            <p>
+                int main(){}
+                <br>
+                <br>
+                Explicação: Esta linha define a função principal do programa. O programa começa a ser executado a partir desta função.
+            </p>
+
+            <span></span>
+
+            <p>
+                printf("Hello, world\n");
+                <br>
+                <br>
+                Explicação: Esta linha usa a função printf() para imprimir a mensagem "Hello, world" na tela, seguida por um caractere de nova linha ("\n").
+            </p>
+
+            <span></span>
+
+            <p>
+                printf("Ola meu primeiro programa em C");
+                <br>
+                <br>
+                Explicação: Esta linha usa novamente a função printf() para imprimir a mensagem "Ola meu primeiro programa em C" na tela.
+            </p>
+            
+            <span></span>
+
+            <p>
+                return 0;
+                <br>
+                <br>
+                Explicação: Esta linha indica que a função principal terminou e retorna um valor inteiro de 0. O valor de retorno 0 indica que o programa terminou com sucesso.
+            </p>
+
+            <span></span>
+        </section>
+
+        <h2>Cálculo de Aniversário</h2>
+
+        <img src="../img/exemplos exercicios C/CalcularIdade.png">
+        <br>
+        <button id="mostrarExplicaçãoCACAN" onclick="exibirExplicacao()">Exibir explicação</button>
+        <button id="fecharExplicaçãoCACN" onclick="ocultarExplicacao()" class="ocultarBotao">Ocultar explicação</button>
+
+        <section id="calculoAniversario">
+
+            <p>
+                #include <stdio.h>
+                <br>
+                #include <stdlib.h>
+                <br>
+                <br>
+                Explicação: Essas linhas incluem as bibliotecas padrão de entrada e saída em C. Isso permite que o programa use funções como printf() e scanf() para imprimir na tela e receber entrada do usuário.
+            </p>
+
+            <span></span>
+
+            <p>
+                int main(){}
+                <br>
+                <br>
+                Explicação: Esta linha define a função principal do programa. O programa começa a ser executado a partir desta função.
+            </p>
+
+            <span></span>
+
+            <p>
+                int ano_nascimento = 2004;
+                <br>
+                int ano_atual = 2023;
+                <br>
+                <br>
+                Explicação: Essas linhas declaram duas variáveis inteiras chamadas ano_nascimento e ano_atual e atribuem a elas os valores 2004 e 2023, respectivamente.
+            </p>
+
+            <span></span>
+
+            <p>
+                int resultado = ano_atual - ano_nascimento;
+                <br>
+                <br>
+                Explicação: Esta linha usa a função printf() para imprimir a mensagem "O vinicios tem: " seguida pelo valor da variável resultado e a palavra "Anos" na tela.
+            </p>
+
+            <span></span>
+
+            <p>
+                return 0;
+                <br>
+                <br>
+                Explicação: Esta linha indica que a função principal terminou e retorna um valor inteiro de 0. O valor de retorno 0 indica que o programa terminou com sucesso.
+            </p>
+
+            <span></span>
+
+        </section>
+
+        <h2>Entrar no Cinema</h2>
+
+        <img src="../img/exemplos exercicios C/CalcularIdade.png">
+
+        <button id="mostrarExplicaçãoCinema" onclick="exibirExplicacaoCinema()">Exibir explicação</button>
+
+        <button id="fecharExplicaçãoCinema" onclick="ocultarExplicacaoCinema()" class="ocultarBotao">Ocultar explicação</button>
+
+        <section id="entrarNoCinema">
+            <p>
+                #include <stdio.h>
+                <br>
+                #include <stdlib.h>
+                <br>
+                <br>
+                Explicação: Essas linhas incluem as bibliotecas padrão de entrada e saída em C. Isso permite que o programa use funções como printf() e scanf() para imprimir na tela e receber entrada do usuário.
+            </p>
+
+            <span></span>
+
+            <p>
+                int main(){}
+                <br>
+                <br>
+                Explicação: Esta linha define a função principal do programa. O programa começa a ser executado a partir desta função.
+            </p>
+
+            <span></span>
+
+            <p>
+                int hora_cinema = 20;
+                <br>
+                <br>
+                Explicação: define a hora de fechamento do cinema como 20:00 (8:00 pm).
+            </p>
+
+            <span></span>
+
+            <p>
+                int hora_atual = 20;
+                <br>
+                <br>
+                Explicação: define a hora atual como 20:00 (8:00 pm).
+            </p>
+
+            <span></span>
+
+            <p>
+                int hora_valida = hora_cinema + 30;
+                <br>
+                <br>
+                Explicação:  define a hora limite para que o cliente possa entrar, adicionando 30 minutos ao horário de fechamento do cinema.
+            </p>
+
+            <span></span>
+
+            <p>
+                if-else
+                <br>
+                <br>
+                Explicação:  a seguir verifica a hora atual em relação à hora limite:
+            </p>
+
+            <span></span>
+
+            <p>
+                if(hora_atual > hora_valida)
+                <br>
+                <br>
+                Explicação: verifica se a hora atual é posterior à hora limite. Se for, a mensagem "Passou do tempo limite! Nao pode entrar!" será exibida.
+            </p>
+
+            <span></span>
+
+            <p>
+                else if(hora_atual < hora_valida - 30)
+                <br>
+                <br>
+                Explicação: verifica se a hora atual é antes de 30 minutos antes da hora limite. Se for, a mensagem "Nem abriu a porta do cinema" será exibida.
+            </p>
+
+            <span></span>
+
+            <p>
+                else
+                <br>
+                <br>
+                Explicação:  é executado se a hora atual estiver dentro do intervalo de 30 minutos antes da hora limite até a hora limite exata. Nesse caso, a mensagem "O horario esta certo! pode entrar!" será exibida.
+            </p>
+
+            <span></span>
+
+            <p>
+                main()
+                <br>
+                <br>
+                Explicação: retorna 0, indicando que o programa foi executado com sucesso.
+            </p>
+
+            <span></span>
+        </section>
+        
+    </main>
+
+    <footer>
+        <h1 id="tituloFotter">Site criado por Vinicius2J</h1>
+
+        <section id="redes">
+
+            <section id="ista">
+                <img width="40px" src="../img/instagram.png">
+                <p>Dev.vini</p>
+            </section>
+    
+            <section id="gitHub">
+                <img width="40px" src="../img/github.png">
+                <p>Vinicius</p>
+            </section>
+    
+            <section id="likedin">
+                <img width="40px" src="../img/linkedin.png">
+                <p>Jose ...</p>
+            </section>
+        </section>
+        
+    </footer>
+
+    <script src="../scripts/mostrarExeplicações.js"></script>
+</body>
+</html>

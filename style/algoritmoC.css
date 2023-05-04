@@ -1,0 +1,355 @@
+@charset "UTF-8";
+
+/*----------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family= família = Sigmar & display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family= Foldit :wght@300 & display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family= Kanit :wght@500 & display=swap');
+
+/*----------------------------------------------------*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+h1 {
+    text-align: center;
+    margin: auto;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    padding: 5px;
+
+    font-family: 'Sigmar', cursive;
+    background-color: cadetblue;
+
+    border-radius: 25px;
+    max-width: 500px;
+}
+
+h2 {
+    text-align: center;
+    padding: 5px;
+
+    width: 400px;
+    margin: auto;
+
+    margin-top: 55px;
+    margin-bottom: 25px;
+
+    font-family: 'Kanit', sans-serif;
+    background-color: cadetblue;
+
+    border-radius: 25px;
+
+    font-size: 1em;
+}
+
+p#obsSuperior {
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 20px 3px rgb(0, 40, 58);
+
+    text-align: center;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/*--------------------------------------------------------------*/
+
+header{
+    font-family: monospace;
+    font-size: 2em;
+}
+
+header > span > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    background: none;
+
+    margin-top: 50px;
+}
+
+nav {
+    background-color: rgb(0, 0, 0);
+
+    padding: 15px;
+    text-align: center;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+}
+
+nav a:nth-child(2) {
+    color: rgb(13, 216, 206);
+}
+
+/*-----------------------------------------------------------*/
+
+main#corpo {
+    max-width: 800px;
+
+    margin: auto;
+
+    font-family: 'Foldit', cursive;
+}
+
+main#corpo > img {
+    width: 800px;
+}
+
+main#corpo > section#algoritmoC {
+    display: flex;
+    flex-direction: column;
+
+    align-content: center;
+    margin-top: 50px;
+}
+
+main#corpo > section#algoritmoC > p  {
+    margin-top: 15px;
+}
+
+main#corpo > section#algoritmoC > span  {
+    width: 200px;
+    height: 2px;
+
+    background-color: rgb(0, 100, 100);
+
+    margin-top: 15px;
+}
+
+/*---------------------------------------------------------------------*/
+
+main#corpo {
+    max-width: 800px;
+
+    margin: auto;
+
+    font-family: 'Foldit', cursive;
+}
+
+main#corpo > section#calculoAniversario {
+    display: flex;
+    flex-direction: column;
+
+    align-content: center;
+    margin-top: 50px;
+
+    display: none;
+}
+
+main#corpo > section#calculoAniversario > p  {
+    margin-top: 15px;
+}
+
+main#corpo > section#calculoAniversario > span  {
+    width: 200px;
+    height: 2px;
+
+    background-color: rgb(0, 100, 100);
+
+    margin-top: 15px;
+}
+
+/*-----------------------------------------------------------------------*/
+
+main#corpo > section#entrarNoCinema {
+    display: flex;
+    flex-direction: column;
+
+    align-content: center;
+    margin-top: 50px;
+
+    display: none;
+}
+
+main#corpo > section#entrarNoCinema > p  {
+    margin-top: 15px;
+}
+
+main#corpo > section#entrarNoCinema > span  {
+    width: 200px;
+    height: 2px;
+
+    background-color: rgb(0, 100, 100);
+
+    margin-top: 15px;
+}
+
+/*-----------------------------------------------------------------------*/
+
+footer {
+    background-color: rgb(0, 34, 34);
+    color: white;
+    height: 350px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-content: center;
+    justify-content: center;
+
+    margin-top: 60px;
+}
+
+footer > h1#tituloFotter {
+    background: none;
+}
+
+footer > section#redes {
+    width: 98.7vw;
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+footer > section#redes > section {
+    margin-top: 15px;
+}
+
+/*--------------------------------------------------------------------*/
+
+footer > section#redes > section#ista {
+    display: flex;
+    flex-direction: row;
+
+    height: 40px;
+    width: 150px;
+
+    align-items: center;
+    justify-content: center;
+
+    border: 5px solid rgb(255, 0, 212);
+    border-radius: 25px;
+
+    padding: 5px;
+
+}
+
+footer > section#redes > section#ista > p {
+    font-family: 'Foldit', cursive;
+
+    margin-left: 15px;
+}
+
+/*--------------------------------------------------------------------*/
+ 
+
+footer > section#redes > section#gitHub {
+    display: flex;
+    flex-direction: row;
+
+    height: 40px;
+    width: 150px;
+
+    align-items: center;
+    justify-content: center;
+
+    border: 5px solid rgb(0, 4, 26);
+    border-radius: 25px;
+
+    padding: 5px;
+}
+
+footer > section#redes > section#gitHub > p {
+    font-family: 'Foldit', cursive;
+
+    margin-left: 15px;
+}
+
+/*------------------------------------------------------------------------*/
+
+footer > section#redes > section#likedin {
+    display: flex;
+    flex-direction: row;
+
+    height: 40px;
+    width: 150px;
+
+    align-items: center;
+    justify-content: center;
+
+    border: 5px solid rgb(0, 245, 245);
+    border-radius: 25px;
+
+    padding: 5px;
+}
+
+footer > section#redes > section#likedin > p {
+    font-family: 'Foldit', cursive;
+
+    margin-left: 15px;
+}
+
+/*-----------------------------------------------------------------------*/
+
+.ocultarBotao {
+    display: none;
+}
+
+main#corpo > button  {
+    background-color: #111827;
+    border: 1px solid transparent;
+    border-radius: .75rem;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex: 0 0 auto;
+    font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    padding: .75rem 1.2rem;
+    text-align: center;
+    text-decoration: none #6B7280 solid;
+    text-decoration-thickness: auto;
+    transition-duration: .2s;
+    transition-property: background-color,border-color,color,fill,stroke;
+    transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+    
+}
+
+main#corpo > button:hover {
+    background-color: #374151; 
+}
+
+main#corpo > button:focus {
+    box-shadow: none;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+@media (min-width: 768px) {
+  main#corpo > button:focus {
+    padding: .75rem 1.5rem;
+  }
+}
+
+/*-----------------------------------------------------------------------*/
