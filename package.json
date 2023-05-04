@@ -1,0 +1,19 @@
+{
+  "name": "tipoportifolio",
+  "version": "1.0.0",
+  "description": "Repositorio criado para ajudar pessoas que estao começando na area da tecnologia assim como eu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vinicius2J/TypePortifolio.git"
+  },
+  "author": "Jose Vinicios",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vinicius2J/TypePortifolio/issues"
+  },
+  "homepage": "https://github.com/Vinicius2J/TypePortifolio#readme"
+}
