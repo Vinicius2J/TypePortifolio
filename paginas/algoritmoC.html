@@ -258,6 +258,242 @@
 
             <span></span>
         </section>
+
+        <h2>Coletando Dados Parte 01</h2>
+        <img src="../img/exemplos exercicios C/ColetnadoDados01.png">
+
+        <button id="mostrarExplicaçãoPd" onclick="exibirExplicacaoPd()">Exibir explicação</button>
+
+        <button id="fecharExplicaçãoPd" onclick="ocultarExplicacaoPd()" class="ocultarBotao">Ocultar explicação</button>
+
+        <section id="pegandoDados01">
+            <p>
+                #include <stdio.h>
+                <br>
+                #include <stdlib.h>
+                <br>
+                <br>
+                Explicação: Essas linhas incluem as bibliotecas padrão de entrada e saída em C. Isso permite que o programa use funções como printf() e scanf() para imprimir na tela e receber entrada do usuário.
+            </p>
+
+            <span></span>
+
+            <p>
+                int main(){}
+                <br>
+                <br>
+                Explicação: Esta linha define a função principal do programa. O programa começa a ser executado a partir desta função.
+            </p>
+
+            <span></span>
+
+            <p>
+                char nome[256]
+                <br>
+                <br>
+                Explicação: Esta linha declara uma variável do tipo <strong>char</strong> chamada nome com tamanho 256 caracteres. Esta variável será usada para armazenar o <strong>nome</strong> do usuário.
+            </p>
+
+            <span></span>
+
+            <p>
+                char sobrenome[256]
+                <br>
+                <br>
+                Explicação: Esta linha declara uma variável do tipo <strong>char</strong> chamada sobrenome com tamanho 256 caracteres. Esta variável será usada para armazenar o <strong>sobrenome</strong> do usuário
+            </p>
+
+            <span></span>
+
+            <p>
+                int ano_nascimento
+                <br>
+                <br>
+                Explicação: Esta linha declara uma variável do tipo int chamada <strong>ano_nascimento</strong>. Esta variável será usada para armazenar o ano de nascimento do usuário.
+            </p>
+
+            <span></span>
+
+            <p>
+                int ano_atual
+                <br>
+                <br>
+                Explicação: Esta linha declara uma variável do tipo int chamada ano_atual. Esta variável será usada para armazenar o ano atual.
+            </p>
+
+            <span></span>
+
+            <p>
+                int mudar_nome
+                <br>
+                <br>
+                Explicação:  Esta linha declara uma variável do tipo int chamada 
+            </p>
+
+            <span></span>
+
+            <p>
+                mudar_nome
+                <br>
+                <br>
+                Explicação:  Esta variável será usada para armazenar a resposta do usuário sobre se ele deseja mudar seu nome e sobrenome.
+            </p>
+
+            <span></span>
+
+            <p>
+                int mudar_idade
+                <br>
+                <br>
+                Explicação: Esta linha declara uma variável do tipo int chamada mudar_idade. Esta variável será usada para armazenar a resposta do usuário sobre se ele deseja mudar sua idade.
+            </p>
+
+            <span></span>
+
+            <p>
+                printf("Qual seu nome ? ")
+                <br>
+                <br>
+                Explicação: sta linha imprime na tela a mensagem "Qual seu nome ? "
+            </p>
+
+            <span></span>
+
+            <p>
+                scanf("%s",nome)
+                <br>
+                <br>
+                Explicação: Esta linha lê a entrada do usuário para a variável nome usando a função scanf(). O %s indica que o input será lido como uma string (cadeia de caracteres)
+            </p>
+
+            <span></span>
+
+            <p>
+                printf("\n Qual seu sobrenome ? ")
+                <br>
+                <br>
+                Explicação: Esta linha imprime na tela a mensagem "Qual seu sobrenome ? "
+            </p>
+
+            <span></span>
+
+            <p>
+                scanf("%s",sobrenome);
+                <br>
+                <br>
+                Explicação: Esta linha lê a entrada do usuário para a variável sobrenome usando a função scanf(). O %s indica que o input
+            </p>
+
+            <span></span>
+        </section>
+
+        <h2>Coletando Dados Parte 02</h2>
+        <img src="../img/exemplos exercicios C/ColetnadoDados02.png">
+
+        <button id="mostrarExplicaçãoPd02" onclick="exibirExplicacaoPd02()">Exibir explicação</button>
+
+        <button id="fecharExplicaçãoPd02" onclick="ocultarExplicacaoPd02()" class="ocultarBotao">Ocultar explicação</button>
+        
+        <section id="pegandoDados02">
+            <p>
+                if(mudar_nome == 0)
+                <br>
+                <br>
+                Explicação: Esta linha inicia um bloco condicional usando a estrutura de controle if. O bloco será executado se a variável mudar_nome for igual a zero.
+            </p>
+
+            <span></span>
+
+            <p>
+                printf("\n Digite seu novo nome : ")
+                <br>
+                <br>
+                Explicação: Esta linha imprime na tela a mensagem "Digite seu novo nome : "
+            </p>
+
+            <span></span>
+
+            <p>
+                scanf("%s",nome)
+                <br>
+                <br>
+                Explicação: Esta linha lê a entrada do usuário para a variável nome usando a função scanf(). O %s indica que o input será lido como uma string (cadeia de caracteres).
+            </p>
+
+            <span></span>
+            
+            <p>
+                printf("\n Digite seu novo sobrenome : ")
+                <br>
+                <br>
+                Explicação: Esta linha imprime na tela a mensagem "Digite seu novo sobrenome : "
+            </p>
+
+            <span></span>
+
+            <p>
+                scanf("%s", sobrenome)
+                <br>
+                <br>
+                Explicação:  Esta linha lê a entrada do usuário para a variável sobrenome usando a função scanf(). O %s indica que o input será lido como uma string (cadeia de caracteres).
+            </p>
+
+            <span></span>
+
+            <p>
+                else
+                <br>
+                <br>
+                Explicação: Esta linha indica o final do bloco <strong>if</strong> e inicia um bloco <strong>else</strong>. Se a variável <strong>mudar_nome</strong> não for igual a zero, o bloco <strong>else</strong> será executado.
+            </p>
+
+            <span></span>
+
+            <p>
+                printf("Ok continue com de onde parou!")
+                <br>
+                <br>
+                Explicação: Esta linha imprime na tela a mensagem "Ok continue de onde parou!"
+            </p>
+
+            <span></span>
+
+            <p>
+                printf("\n Muito bem %s %s agora em qual ano voce esta ? ",nome,sobrenome)
+                <br>
+                <br>
+                Explicação:  Esta linha imprime na tela a mensagem "Muito bem (nome) (sobrenome), agora em qual ano você está?" usando a função printf(). As variáveis nome e sobrenome serão inseridas na mensagem.
+            </p>
+
+            <span></span>
+
+            <p>
+                scanf("%d",&ano_atual)
+                <br>
+                <br>
+                Explicação: Esta linha lê a entrada do usuário para a variável ano_atual usando a função scanf(). O %d indica que o input será lido como um número inteiro.
+            </p>
+
+            <span></span>
+
+            <p>
+                printf("\n %s %s em qual ano voce nasceu ? ",nome,sobrenome)
+                <br>
+                <br>
+                Explicação: Esta linha imprime na tela a mensagem "(nome) (sobrenome), em qual ano você nasceu?" usando a função printf(). As variáveis nome e sobrenome serão inseridas na mensagem.
+            </p>
+
+            <span></span>
+
+            <p>
+                scanf("%d",&ano_nascimento)
+                <br>
+                <br>
+                Explicação: Esta linha lê a entrada do usuário para a variável ano_nascimento usando a função scanf(). O %d indica que o input será lido como um número
+            </p>
+
+            <span></span>
+        </section>
         
     </main>
 
